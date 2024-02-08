@@ -220,3 +220,21 @@ body {
     color: var(--white);
     font-size: 18px;
 }
+
+.signup-button:hover {
+    background-color: #1F2937;
+    transform: rotate3d(5, 5, 5, 5deg);
+}
+
+.hero-signup-button:hover {
+    background-color: #344a60;
+    transform: rotate3d(5, 5, 5, 5deg);
+}
+
+.signup-button:active {
+    transform: scale3d(107%, 103%, 104%);
+}
+
+.hero-signup-button:active {
+    transform: scale3d(107%, 103%, 104%);
+}
