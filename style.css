@@ -7,102 +7,216 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: var(--dark-blue);
+}
+
+
+
+.image-content {
+    border: #3882F6 solid 2px;
+
+}
+
 :root {
     --white: #F9FAF8;
     --gray: #E5E7EB;
+    --blue: #3882F6;
+    --dark-blue: #1F2937;
 }
 
 body {
     font-family: Arial, sans-serif;
 }
 
-.hero-section {
-    background-color: #1F2937;
-    height: 500px;
+.text-content {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.navbar a {
-    color:  var(--gray);
-}
-
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 100px;
-    gap: 25px;
-
-    height: 50px;
-}
-
-.header-logo {
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
     color: var(--white);
-    font-size: 24px;
-    margin-right: auto;
-    padding-left: 80px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: var(--gray);
 }
 
 .hero-content {
     display: flex;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
 }
 
-.hero-content-text-container {
-    padding-left: 80px;
-}
-
-.hero-main-text {
-    color: var(--white);
-    font-size: 48px;
-    font-weight: bold;
-
-    padding-top: 105px;
-}
-
-.hero-subtext {
-    color: var(--gray);
-    font-size: 18px;
-
-    padding-top: 25px;
+.image {
+    margin-left: auto;
+    margin-right: 75px;
 }
 
 .hero-signup-button {
-    border-radius: 10px;
-    background-color: #3882F6;
+    background-color: var(--blue);
     color: var(--white);
-    padding: 8px 25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
     font-size: 18px;
-    font-weight: bold;
-    margin-top: 15px;
 }
 
-.hero-image {
-    display: inline-block;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    height: 300px;
-    width: 600px;
+    gap: 450px;
+}
 
-    margin-left: auto;
+.navbar div {
+    margin-top: 25px;
+}
+
+.navbar-links {
+    display: flex;
+    color: var(--gray);
+    font-size: 18px;
+    list-style-type: none;
+    gap: 15px;
     margin-right: 100px;
-    margin-top: 70px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.hero-section {
+    background-color: var(--dark-blue);
+    height: 500px;
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-section {
-    background-color: red;
-    height: 400px;
+    background-color: var(--white);
+    height: 450px;
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-section {
-    background-color: yellow;
-    height: 500px;
+    background-color: var(--gray);
+    height: 450px;
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-section {
-    background-color: #3882F6;
-    height: 400px;
+    background-color: var(--white);
+    height: 370px;
+    overflow: auto;
 }
 
 .footer-section {
-    background-color: #1F2937;
+    background-color: var(--dark-blue);
     height: 100px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info {
+    color: var(--dark-blue);
+    font-weight: bolder;
+    font-size: 36px;
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-list img {
+    border-radius: 15px;
+}
+
+.image-list p {
+    text-align: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-content {
+    background-color: var(--blue);
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.signup-text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-subtext {
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.signup-button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: var(--white) solid 2px;
+    border-radius: 7px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copyright-text {
+    color: var(--white);
+    font-size: 18px;
 }

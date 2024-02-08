@@ -2,35 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page</title>
-
+    <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="hero-section">
-            <nav class="navbar">
-                <h2 class="header-logo">Header Logo</h2>
-                <a>header link one</a>
-                <a>header link two</a>
-                <a>header link three</a>
-            </nav>
-            <div class="hero-content">
-                <div class="hero-content-text-container">
-                    <p class="hero-main-text">This website is<br>awesome</p>
-                    <p class="hero-subtext">This website has some subtext that goes here under the<br>main title. It's a smaller font and the color is lower contrast</p>
-                    <button class="hero-signup-button">Sign Up</button>
-                </div>
-                <img src="image-hero.jpg" class="hero-image" alt="A beautiful sunset with sea">
+<!-- Main Div -->
+<div class="container">
+    <div class="navbar">
+        <div>
+            <p class="header-logo">Header Logo</p>
+        </div>
+        <div>
+            <ul class="navbar-links">
+                <li><a>header link one</a></li>
+                <li><a>header link two</a></li>
+                <li><a>header link three</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="hero-content">
+            <div class="text-content">
+                <p class="hero-text">This website is<br>awesome</p>
+                <p class="hero-subtext">This website has some subtext that goes here under the<br>main title. It's a smaller font and the color is lower<br>contrast</p>
+                <button class="hero-signup-button">Sign up</button>
+            </div>
+            <div class="image">
+                <img src="image-hero.jpg" alt="beautiful sunset" width="525" height="254">
             </div>
         </div>
-        <div class="info-section"></div>
-        <div class="quote-section"></div>
-        <div class="signup-section"></div>
-        <div class="footer-section"></div>
     </div>
+    <div class="info-section">
+        <div class="info-content">
+            <p class="random-info">Some random information.</p>
+            <div class="image-list">
+                <div>
+                    <img src="info-image.jpg" alt="pepper" width="200" height="200">
+                    <p>this is some subtext<br>under an illustration<br>or image</p>
+                </div>
+                <div>
+                    <img src="info-image.jpg" alt="pepper" width="200" height="200">
+                    <p>this is some subtext<br>under an illustration<br>or image</p>
+                </div>
+                <div>
+                    <img src="info-image.jpg" alt="pepper" width="200" height="200">
+                    <p>this is some subtext<br>under an illustration<br>or image</p>
+                </div>
+                <div>
+                    <img src="info-image.jpg" alt="pepper" width="200" height="200">
+                    <p>this is some subtext<br>under an illustration<br>or image</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quote-section">
+        <div>
+            <p class="quote"><em>This is an inspiring quote, or a testimonial form a<br>customer. Maybe it's just filling up space, or maybe<br>people will actually read it. Who knows? All I know<br>is that it looks nice</em></p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </div>
+    <div class="signup-section">
+        <div class="signup-content">
+            <div>
+                <h3 class="signup-text">Call to action! It's time!</h3>
+                <p class="signup-subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button class="signup-button">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section">
+        <p class="copyright-text">Copyright © GodOfPro 2023</p>
+    </div>
+</div>
 </body>
 </html>
