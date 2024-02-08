@@ -221,20 +221,20 @@ body {
     font-size: 18px;
 }
 
+.signup-button:hover, .hero-signup-button:hover {
+    transform: rotate3d(5, 5, 5, 5deg);
+    cursor: pointer;
+}
+
 .signup-button:hover {
     background-color: #1F2937;
-    transform: rotate3d(5, 5, 5, 5deg);
 }
 
 .hero-signup-button:hover {
     background-color: #344a60;
-    transform: rotate3d(5, 5, 5, 5deg);
 }
 
-.signup-button:active {
+.signup-button:active, .hero-signup-button:active {
     transform: scale3d(107%, 103%, 104%);
-}
-
-.hero-signup-button:active {
-    transform: scale3d(107%, 103%, 104%);
+    cursor: pointer;
 }
